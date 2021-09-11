@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerCollection", "BeerCollection\BeerCollection.csproj", "{1F185C1B-E837-4E50-8397-9EF31E1C75AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beer.Repository", "Beer.Repository\Beer.Repository.csproj", "{A8B306D0-4909-4E95-99B8-8D279CDB62EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beer.Models", "Beer.Models\Beer.Models.csproj", "{57ED609B-5228-4A7F-85A3-98CED820D623}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beer.ViewModels", "Beer.ViewModels\Beer.ViewModels.csproj", "{33339B25-4558-4F57-9757-4CA73D2AA392}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beer.Interfaces", "Beer.Interfaces\Beer.Interfaces.csproj", "{631FC8E4-D38D-4A4C-B2CA-8E12CF5B1240}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beer.Common", "Beer.Common\Beer.Common.csproj", "{E151AADF-6C71-45E9-8CFD-9AED13B9A5A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerAPIUnitTestMoq", "BeerAPIUnitTestMoq\BeerAPIUnitTestMoq.csproj", "{F35C3F7B-2C75-4D47-A721-AB4E5C8498A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F185C1B-E837-4E50-8397-9EF31E1C75AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F185C1B-E837-4E50-8397-9EF31E1C75AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F185C1B-E837-4E50-8397-9EF31E1C75AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F185C1B-E837-4E50-8397-9EF31E1C75AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B306D0-4909-4E95-99B8-8D279CDB62EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B306D0-4909-4E95-99B8-8D279CDB62EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B306D0-4909-4E95-99B8-8D279CDB62EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B306D0-4909-4E95-99B8-8D279CDB62EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57ED609B-5228-4A7F-85A3-98CED820D623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ED609B-5228-4A7F-85A3-98CED820D623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ED609B-5228-4A7F-85A3-98CED820D623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ED609B-5228-4A7F-85A3-98CED820D623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33339B25-4558-4F57-9757-4CA73D2AA392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33339B25-4558-4F57-9757-4CA73D2AA392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33339B25-4558-4F57-9757-4CA73D2AA392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33339B25-4558-4F57-9757-4CA73D2AA392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631FC8E4-D38D-4A4C-B2CA-8E12CF5B1240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631FC8E4-D38D-4A4C-B2CA-8E12CF5B1240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631FC8E4-D38D-4A4C-B2CA-8E12CF5B1240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631FC8E4-D38D-4A4C-B2CA-8E12CF5B1240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E151AADF-6C71-45E9-8CFD-9AED13B9A5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E151AADF-6C71-45E9-8CFD-9AED13B9A5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E151AADF-6C71-45E9-8CFD-9AED13B9A5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E151AADF-6C71-45E9-8CFD-9AED13B9A5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35C3F7B-2C75-4D47-A721-AB4E5C8498A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35C3F7B-2C75-4D47-A721-AB4E5C8498A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35C3F7B-2C75-4D47-A721-AB4E5C8498A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35C3F7B-2C75-4D47-A721-AB4E5C8498A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D567A28B-BE2A-4E3A-947D-1EC0A8BB619E}
+	EndGlobalSection
+EndGlobal

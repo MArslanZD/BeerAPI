@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Beer.Interfaces/1.0.0": {
+        "dependencies": {
+          "Beer.Models": "1.0.0",
+          "Beer.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "Beer.Interfaces.dll": {}
+        }
+      },
+      "Beer.Models/1.0.0": {
+        "runtime": {
+          "Beer.Models.dll": {}
+        }
+      },
+      "Beer.ViewModels/1.0.0": {
+        "runtime": {
+          "Beer.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Beer.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Beer.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Beer.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

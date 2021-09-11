@@ -1,0 +1,467 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Beer_Catalog\\BeerAPIUnitTestMoq\\BeerAPIUnitTestMoq.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Beer_Catalog\\Beer.Common\\Beer.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Beer_Catalog\\Beer.Common\\Beer.Common.csproj",
+        "projectName": "Beer.Common",
+        "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Common\\Beer.Common.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Beer_Catalog\\Beer.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\Beer_Catalog\\Beer.Interfaces\\Beer.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Beer_Catalog\\Beer.Interfaces\\Beer.Interfaces.csproj",
+        "projectName": "Beer.Interfaces",
+        "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Interfaces\\Beer.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Beer_Catalog\\Beer.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Projects\\Beer_Catalog\\Beer.Models\\Beer.Models.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Models\\Beer.Models.csproj"
+              },
+              "D:\\Projects\\Beer_Catalog\\Beer.ViewModels\\Beer.ViewModels.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.ViewModels\\Beer.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\Beer_Catalog\\Beer.Models\\Beer.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Beer_Catalog\\Beer.Models\\Beer.Models.csproj",
+        "projectName": "Beer.Models",
+        "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Models\\Beer.Models.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Beer_Catalog\\Beer.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\Beer_Catalog\\Beer.Repository\\Beer.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Beer_Catalog\\Beer.Repository\\Beer.Repository.csproj",
+        "projectName": "Beer.Repository",
+        "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Repository\\Beer.Repository.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Beer_Catalog\\Beer.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Projects\\Beer_Catalog\\Beer.Interfaces\\Beer.Interfaces.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Interfaces\\Beer.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\Beer_Catalog\\Beer.ViewModels\\Beer.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Beer_Catalog\\Beer.ViewModels\\Beer.ViewModels.csproj",
+        "projectName": "Beer.ViewModels",
+        "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.ViewModels\\Beer.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Beer_Catalog\\Beer.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\Beer_Catalog\\BeerAPIUnitTestMoq\\BeerAPIUnitTestMoq.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Beer_Catalog\\BeerAPIUnitTestMoq\\BeerAPIUnitTestMoq.csproj",
+        "projectName": "BeerAPIUnitTestMoq",
+        "projectPath": "D:\\Projects\\Beer_Catalog\\BeerAPIUnitTestMoq\\BeerAPIUnitTestMoq.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Beer_Catalog\\BeerAPIUnitTestMoq\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Projects\\Beer_Catalog\\Beer.Common\\Beer.Common.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Common\\Beer.Common.csproj"
+              },
+              "D:\\Projects\\Beer_Catalog\\Beer.Interfaces\\Beer.Interfaces.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Interfaces\\Beer.Interfaces.csproj"
+              },
+              "D:\\Projects\\Beer_Catalog\\Beer.Models\\Beer.Models.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Models\\Beer.Models.csproj"
+              },
+              "D:\\Projects\\Beer_Catalog\\Beer.Repository\\Beer.Repository.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Repository\\Beer.Repository.csproj"
+              },
+              "D:\\Projects\\Beer_Catalog\\Beer.ViewModels\\Beer.ViewModels.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.ViewModels\\Beer.ViewModels.csproj"
+              },
+              "D:\\Projects\\Beer_Catalog\\BeerCollection\\BeerCollection.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\BeerCollection\\BeerCollection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\Beer_Catalog\\BeerCollection\\BeerCollection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Beer_Catalog\\BeerCollection\\BeerCollection.csproj",
+        "projectName": "BeerCollection",
+        "projectPath": "D:\\Projects\\Beer_Catalog\\BeerCollection\\BeerCollection.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Beer_Catalog\\BeerCollection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Projects\\Beer_Catalog\\Beer.Repository\\Beer.Repository.csproj": {
+                "projectPath": "D:\\Projects\\Beer_Catalog\\Beer.Repository\\Beer.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
